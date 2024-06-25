@@ -1,0 +1,13 @@
+console.log("Site made by CodeHaven");
+
+width = window.innerWidth;
+console.log(width);
+
+if (width <= 890) {
+    console.log("Mobile activated");
+
+    document.getElementById("home").innerHTML = "<div class='pf'><div class='pft'><h1>Océane Hair Studio</h1><div class='stars'><span class='gstar'>&#9733;</span><span class='gstar'>&#9733;</span><span class='gstar'>&#9733;</span><span class='gstar'>&#9733;</span><span class='gstar'>&#9733;</span></div><img class='pimg' src='salon.jpg' alt='salon photo'><div class='dets'><p>WOMEN - MEN - KIDS SERVICES</p><p>Hair cutting and styling <br> Colouring &amp; Keratin Treatment <br> Barber services</p><a class='pfta' target='_blank' href='https://www.fresha.com/a/oceane-hair-studio-killarney-heights-19-cashel-crescent-nb01ns6s/booking'>See all services and prices</a></div></div></div>";
+    document.getElementById("ri").innerHTML = "<div id='carouselExampleIndicators' class='carousel slide' data-ride='carousel'><ol class='carousel-indicators'><li data-target='#carouselExampleIndicators' data-slide-to='0' class='active'></li><li data-target='#carouselExampleIndicators' data-slide-to='1'></li><li data-target='#carouselExampleIndicators' data-slide-to='2'></li></ol><div class='carousel-inner'><div class='carousel-item active'><img class='d-block w-100' src='results1.jpg' alt='First slide'></div><div class='carousel-item'><img class='d-block w-100' src='results2.jpg' alt='Second slide'></div><div class='carousel-item'><img class='d-block w-100' src='results3.jpg' alt='Third slide'></div></div><a class='carousel-control-prev' href='#carouselExampleIndicators' role='button' data-slide='prev'><span class='carousel-control-prev-icon' aria-hidden='true'></span><span class='sr-only'>Previous</span></a><a class='carousel-control-next' href='#carouselExampleIndicators' role='button' data-slide='next'><span class='carousel-control-next-icon' aria-hidden='true'></span><span class='sr-only'>Next</span></a></div>";
+    document.getElementById("n").innerHTML = "<div class='collapse' id='navbarToggleExternalContent' data-bs-theme='dark'> <div class='bg-dark p-4'> <h5 class='text-body-emphasis h4'>Collapsed content</h5> <span class='text-body-secondary'>Toggleable via the navbar brand.</span> </div> </div> <nav class='navbar navbar-dark bg-dark'> <div class='container-fluid'> <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarToggleExternalContent' aria-controls='navbarToggleExternalContent' aria-expanded='false' aria-label='Toggle navigation'> <span class='navbar-toggler-icon'></span> </button> </div> </nav>";
+}
+
